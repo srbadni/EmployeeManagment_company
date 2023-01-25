@@ -1,0 +1,27 @@
+// Here you can add other styles
+
+.k-grid-table td {
+  text-align: right !important;
+}
+
+body {
+  font-family: Shabnam;
+}
+
+.input-picker--input {
+  padding: 0.375rem 0.75rem !important;
+  height: auto !important;
+  text-align: right !important;
+}
+
+.calender-modal {
+  bottom: unset !important;
+}
+
+button.k-button.k-button-md.k-button-rectangle[title*="Clear"] {
+  display: none
+}
+
+th[aria-label*="Filter"]:last-child{
+  display: none!important;
+}
